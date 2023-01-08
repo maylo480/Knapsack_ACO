@@ -107,7 +107,7 @@ def get_subset(outcome):
     return subset
 
 def save_subset(subset, sample):
-    with open(f"result{sample}.txt", "w") as f:
+    with open(f"Results/result{sample}.txt", "w") as f:
         for el in subset:
             f.write(str(el))
             f.write("\n")
